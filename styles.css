@@ -187,14 +187,26 @@ hr {
 .ig:hover {
     color: #bcbcbc;
 }
+.ig:active {
+    color: white;
+}
 .mail:hover {
     color: #bcbcbc;
+}
+.mail:active {
+    color: white;
 }
 .git:hover {
     color: #bcbcbc;
 }
+.git:active {
+    color: white;
+}
 .li:hover {
     color: #bcbcbc;
+}
+.li:active {
+    color: white;
 }
 
 @media (max-width: 1680px) {
