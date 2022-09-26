@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Brian Ozawa Burns</title>
+        <!-- Bootstrap -->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Font Awesome Icons -->
+        <script src="https://kit.fontawesome.com/ff14f80bd7.js" crossorigin="anonymous"></script>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- navigation bar -->
+        <!-- Brian OB                   Bio Gallery NatGG Gmail -->
+        <section id="navigation-bar">
+            <div  class="bg-image">
+            <div class="container-fluid nav-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark nb" style>
+                    <a class="navbar-brand" href="" style="margin-left: 20px; color: #D2D7DB">Brian Ozawa Burns</a>
+                    <button class="navbar-toggler collapsed ni" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent" style>
+                        <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ni">
+                            <a class="nav-link" href="#bio">Bio</a>
+                        </li>
+                        <li class="nav-item ni">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item ni">
+                            <a class="nav-link" href="NatGG.html">NatGG</a>
+                        </li>
+                        <li class="nav-item ni">
+                            <a class="nav-link" href="CS.html">CS</a>
+                        </li>
+                        <li class="nav-item ni">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            </div>
+        </section>
+        <!-- Main Body -->
+        <section id="main-body">
+            <div class="entire-body">
+                <div id="bio">
+                    <div class="container-fluid profile">
+                        <div class="row price-row">
+                          <div class="col-md-6 profile-pic-col">
+                            <div class="ppcb">
+                                <img src="images/profile.png" class="profile-pic">
+                            </div>
+                          </div>
+                          <div class="col-md-6 profile-text-col">
+                            <div class="">
+                              <p>Hi, I'm Brian Ozawa Burns and I'm a painter, musician, computer scientist, gaucho, and so much more. 
+                                 I designed and coded this website to share some of my work, both artistic and computer science related.
+                                 Thanks for exploring my page, and feel free to contact me about my work or for a collab!</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <!-- Contact Info -->
+        <section id="footer">
+            <div class="footer-class">
+                <i class="fa-brands fa-instagram social-icon fa-2xl ig"></i>
+                <i class="fa-solid fa-envelope social-icon fa-2xl mail"></i>
+                <i class="fa-brands fa-github social-icon fa-2xl git"></i>
+                <i class="fa-brands fa-linkedin social-icon fa-2xl li"></i>
+            </div>
+        </section>
+        <script>
+            {
+                var nav = document.querySelector(".container-fluid");
+                // nav.classList.toggle("sticky", window.scrollY > 10);
+                var mb = document.querySelector(".entire-body");
+                window.addEventListener("scroll", () => {
+                    if (window.scrollY > 10) {
+                        nav.classList.add("sticky");
+                        mb.classList.add("mb-shadow");
+                    } else {
+                        nav.classList.remove("sticky");
+                        mb.classList.remove("mb-shadow");
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>
