@@ -1,0 +1,233 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 1.3;
+    color: #E2E4E6;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    color: #E2E4E6;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+hr {
+    margin: 0;
+    height: 2px;
+    color: #6d6d6d;
+}
+
+/* cs */
+
+
+
+.bg-image {
+    background-image: url("../images/green_bg.PNG");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    /* Needed to position the navbar */
+    position: relative;
+    /* background-attachment: fixed; */
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #8f8f8f;
+}
+
+.entire-body {
+    background-color: #080d11;
+    /* border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #8f8f8f; */
+}
+
+/* CS */
+
+.accordion-button {
+    text-align: center;
+    height: 8rem;
+    transition: 0.3s;
+}
+
+.accordion-button:enabled:hover {
+    border-style: solid none solid none;
+    border-width: 6px 0 6px 0;
+    border-color: #359c75;
+    /* height: 10rem; */
+}
+
+/* .accordion-button:enabled::after {
+    background-color: #3b8166;
+    height: 10rem;
+} */
+
+.accordion-label {
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.65);
+}
+
+.accordion {
+    --bs-accordion-border-color: #3b8166;
+    --bs-accordion-active-color: #3b8166;
+    --bs-accordion-btn-focus-border-color: #3b8166;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.2rem #3b8166;
+}
+
+.accordion-button:enabled {
+    background-color: #080d11;
+    text-align: center;
+    color: #E2E4E6;
+    outline-style: solid;
+    outline-color: #8f8f8f;
+    outline-width: 2px;
+    /* border-bottom-style: solid;
+    border-bottom-color: #8f8f8f;
+    border-bottom-width: 2px; */
+}
+
+.accordion-item {
+    background-color: #294b43;
+    /* border-bottom-style: solid;
+    border-bottom-color: #8f8f8f;
+    border-bottom-width: 2px; */
+}
+
+.accordion-title {
+    text-align: center;
+}
+
+.accordion-button::before {
+    display:none;
+}
+
+.accordion-button::after {
+    display:none;
+}
+
+.accordion-body {
+    text-align: center;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+.group-image {
+    width: 50%;
+}
+
+.team-image {
+    width: 50%;
+}
+
+.proposal-pdf {
+    width: 50%;
+}
+
+.poster-pdf {
+    width: 50%;
+    height: 100%;
+}
+
+@media (max-width: 1680px) {
+    .bg-image {
+        background-image: url("../images/green_bg.PNG");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        /* Needed to position the navbar */
+        position: relative;
+    }
+}
+
+@media (max-width: 1000px) {
+    .bg-image {
+        background-image: url("../images/green_bg.PNG");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        /* Needed to position the navbar */
+        position: relative;
+    }
+    .accordion-button {
+        text-align: center;
+        height: 7rem;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 2.6rem;
+        line-height: 1.4;
+    }
+    
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 2.1rem;
+        line-height: 1.2;
+        color: white;
+    }
+    
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .bg-image {
+        background-image: url("../images/green_bg.PNG");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 280px;
+        /* Needed to position the navbar */
+        position: relative;
+    }
+    .accordion-button {
+        text-align: center;
+        height: 6rem;
+        transition: 0.3s;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.8rem;
+        line-height: 1.0;
+        color: white;
+    }
+    
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}

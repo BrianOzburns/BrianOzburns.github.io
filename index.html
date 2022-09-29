@@ -10,7 +10,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
         <!-- Stylesheet -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/footer.css">
 
         <!-- Font Awesome Icons -->
         <script src="https://kit.fontawesome.com/ff14f80bd7.js" crossorigin="anonymous"></script>
@@ -22,11 +24,11 @@
     </head>
     <body>
         <!-- navigation bar -->
-        <!-- Brian OB                   Bio Gallery NatGG Gmail -->
+        <!-- Brian OB                   Bio Gallery Other Gmail -->
         <section id="navigation-bar">
             <div  class="bg-image">
             <div class="container-fluid nav-fluid">
-                <nav class="navbar navbar-expand-lg navbar-dark nb" style>
+                <nav class="navbar navbar-expand-md navbar-dark nb" style>
                     <a class="navbar-brand" href="" style="margin-left: 20px; color: #D2D7DB">Brian Ozawa Burns</a>
                     <button class="navbar-toggler collapsed ni" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -40,10 +42,10 @@
                             <a class="nav-link" href="gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item ni">
-                            <a class="nav-link" href="NatGG.html">NatGG</a>
+                            <a class="nav-link" href="CS.html">CS</a>
                         </li>
                         <li class="nav-item ni">
-                            <a class="nav-link" href="CS.html">CS</a>
+                            <a class="nav-link" href="other.html">Other</a>
                         </li>
                         <li class="nav-item ni">
                             <a class="nav-link" href="#footer">Contact</a>
@@ -59,6 +61,7 @@
             <div class="entire-body">
                 <div id="bio">
                     <div class="container-fluid profile">
+                        <h2 class="bio-title">Bio</h2>
                         <div class="row price-row">
                           <div class="col-md-6 profile-pic-col">
                             <div class="ppcb">
@@ -68,7 +71,7 @@
                           <div class="col-md-6 profile-text-col">
                             <div class="">
                               <p>Hi, I'm Brian Ozawa Burns and I'm a painter, musician, computer scientist, gaucho, and so much more. 
-                                 I designed and coded this website to share some of my work, both artistic and computer science related.
+                                 I designed this website to share some of my work, both artistic and computer science related.
                                  Thanks for exploring my page, and feel free to contact me about my work or for a collab!</p>
                             </div>
                           </div>
@@ -85,23 +88,9 @@
                 <a href="mailto:BrianOzburns@gmail.com?subject=Contact from Website: your_name_here"><i class="fa-solid fa-envelope social-icon fa-2xl mail"></i></a>
                 <a href="https://github.com/BrianOzburns/"><i class="fa-brands fa-github social-icon fa-2xl git"></i></a>
                 <a href="https://www.linkedin.com/in/brian-ozawa-burns/"><i class="fa-brands fa-linkedin social-icon fa-2xl li"></i></a>
+                <p class="footer-text">Brian Ozawa Burns | © 2022. All rights reserved.</p>
             </div>
         </section>
-        <script>
-            {
-                var nav = document.querySelector(".container-fluid");
-                // nav.classList.toggle("sticky", window.scrollY > 10);
-                var mb = document.querySelector(".entire-body");
-                window.addEventListener("scroll", () => {
-                    if (window.scrollY > 10) {
-                        nav.classList.add("sticky");
-                        mb.classList.add("mb-shadow");
-                    } else {
-                        nav.classList.remove("sticky");
-                        mb.classList.remove("mb-shadow");
-                    }
-                });
-            }
-        </script>
+        <script src="js/nav.js" type="text/javascript"></script>
     </body>
 </html>
