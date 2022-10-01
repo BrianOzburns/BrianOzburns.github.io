@@ -1,3 +1,7 @@
+html {
+    background-color: #080d11;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -36,24 +40,26 @@ hr {
 /* Main Body */
 
 .bg-image {
+    background-color: #080d11;
     background-image: url("../images/blue_bg.PNG");
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
     height: 800px;
     /* Needed to position the navbar */
     position: relative;
     /* background-attachment: fixed; */
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: #8f8f8f;
+    border-bottom-color: #6d6d6d;
 }
 
 .entire-body {
     background-color: #080d11;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: #8f8f8f;
+    border-bottom-color: #6d6d6d;
 }
 
 /* bio */
