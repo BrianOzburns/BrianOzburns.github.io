@@ -3,16 +3,16 @@
 }
 
 .social-icon {
-    margin: 50px 25px 50px 25px;
+    margin: 80px 25px 50px 25px;
     color: #8f8f8f;
 }
 
 .footer-class {
     height: 200px;
     background-color: #080d11;
-    border-top-width: 2px;
+    /* border-top-width: 2px;
     border-top-style: solid;
-    border-top-color: #6d6d6d;
+    border-top-color: #6d6d6d; */
 }
 
 .footer-text {
@@ -46,25 +46,25 @@
 
 @media (max-width: 1680px) {
     .footer-class {
-        height: 180px;
+        height: 220px;
         background-color: #080d11;
     }
 }
 
 @media (max-width: 1000px) {
     .footer-class {
-        height: 160px;
+        height: 200px;
         background-color: #080d11;
     }
 }
 
 @media (max-width: 600px) {
     .footer-class {
-        height: 140px;
+        height: 180px;
         background-color: #080d11;
     }
     .social-icon {
-        margin: 50px 25px 30px 25px;
+        margin: 80px 25px 40px 25px;
         color: #8f8f8f;
     }
 }

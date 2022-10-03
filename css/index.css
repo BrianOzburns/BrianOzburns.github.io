@@ -62,10 +62,26 @@ hr {
     border-bottom-color: #6d6d6d;
 }
 
+.bg-text {
+    padding: 17%;
+    text-align: center;
+    color: #E2E4E6;
+}
+
+.bg-sub-heading {
+    padding: 0 15% 0 15%;
+}
+
+.bg-text h3 {
+    font-family: 'Monoton', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
 /* bio */
 
 .bio-title {
-    padding: 0 80% 0 20%;
+    padding: 0 80% 1.5% 20%;
 }
 
 .price-row {
@@ -91,7 +107,7 @@ hr {
     /* border-width: 2px;
     border-style: solid;
     border-color: #8f8f8f; */
-    padding: 5px;
+    padding: 15px 5px 5px 5px;
     text-align: center;
 }
 
@@ -106,8 +122,8 @@ hr {
 } */
 
 .profile-text-col {
-    margin-top: 30px;
-    padding: 5px;
+    margin-top: 20px;
+    padding: 15px 5px 5px 5px;
     text-align: left;
 }
 
@@ -132,6 +148,11 @@ hr {
         height: 400px;
         /* Needed to position the navbar */
         position: relative;
+    }
+    .bg-text h3 {
+        font-family: 'Monoton', cursive;
+        font-weight: 400;
+        font-size: 3rem;
     }
     h1 {
         font-family: 'Montserrat', sans-serif;
@@ -164,6 +185,14 @@ hr {
         height: 280px;
         /* Needed to position the navbar */
         position: relative;
+    }
+    .bg-text h3 {
+        font-family: 'Monoton', cursive;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .bg-sub-heading {
+        font-size: small;
     }
     h1 {
         font-family: 'Montserrat', sans-serif;
