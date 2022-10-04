@@ -185,6 +185,40 @@ hr {
     margin: 3% 0 3% 0;
 }
 
+.art-container {
+    position: relative;
+    width: 100%;
+}
+
+.art-overlay {
+    position: absolute;
+    bottom: 3%;
+    top: 3%;
+    left: 0;
+    right: 0;
+    background-color: #a37e3a;
+    overflow: hidden;
+    width: 0;
+    height: 94%;
+    transition: .5s ease;
+}
+
+.art-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.art-container:hover .art-overlay {
+    width: 100%;
+}
+
 @media (max-width: 1680px) {
     .bg-image {
         background-image: url("../images/red_bg.PNG");
