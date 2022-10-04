@@ -39,9 +39,7 @@ hr {
     color: #6d6d6d;
 }
 
-/* cs */
-
-
+/* Main Body */
 
 .bg-image {
     background-image: url("../images/green_bg.PNG");
@@ -63,6 +61,26 @@ hr {
     /* border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: #8f8f8f; */
+}
+
+.bg-text {
+    padding: 17% 0 17% 0;
+    text-align: center;
+    color: #E2E4E6;
+}
+
+.bg-heading {
+    padding: 0 0 0 0;
+}
+
+.bg-sub-heading {
+    padding: 0 22% 0 22%;
+}
+
+.bg-text h3 {
+    font-family: 'Monoton', cursive;
+    font-weight: 400;
+    font-size: 4rem;
 }
 
 /* CS */
@@ -174,6 +192,11 @@ hr {
         /* Needed to position the navbar */
         position: relative;
     }
+    .bg-text h3 {
+        font-family: 'Monoton', cursive;
+        font-weight: 400;
+        font-size: 3rem;
+    }
     .accordion-button {
         text-align: center;
         height: 7rem;
@@ -209,6 +232,14 @@ hr {
         height: 280px;
         /* Needed to position the navbar */
         position: relative;
+    }
+    .bg-text h3 {
+        font-family: 'Monoton', cursive;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .bg-sub-heading {
+        font-size: small;
     }
     .accordion-button {
         text-align: center;

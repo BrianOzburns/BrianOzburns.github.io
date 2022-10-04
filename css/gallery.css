@@ -64,6 +64,26 @@ hr {
     border-bottom-color: #8f8f8f; */
 }
 
+.bg-text {
+    padding: 17% 0 17% 0;
+    text-align: center;
+    color: #E2E4E6;
+}
+
+.bg-heading {
+    padding: 0 0 0 0;
+}
+
+.bg-sub-heading {
+    padding: 0 22% 0 22%;
+}
+
+.bg-text h3 {
+    font-family: 'Monoton', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
 /* gallery */
 
 .art-piece {
@@ -187,6 +207,11 @@ hr {
         /* Needed to position the navbar */
         position: relative;
     }
+    .bg-text h3 {
+        font-family: 'Monoton', cursive;
+        font-weight: 400;
+        font-size: 3rem;
+    }
     .column-gall {
         flex: 50%;
         max-width: 50%;
@@ -222,6 +247,14 @@ hr {
         height: 280px;
         /* Needed to position the navbar */
         position: relative;
+    }
+    .bg-text h3 {
+        font-family: 'Monoton', cursive;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .bg-sub-heading {
+        font-size: small;
     }
     .column-gall {
         flex: 100%;

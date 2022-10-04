@@ -63,13 +63,17 @@ hr {
 }
 
 .bg-text {
-    padding: 17%;
+    padding: 17% 0 17% 0;
     text-align: center;
     color: #E2E4E6;
 }
 
+.bg-heading {
+    padding: 0 0 0 0;
+}
+
 .bg-sub-heading {
-    padding: 0 15% 0 15%;
+    padding: 0 22% 0 22%;
 }
 
 .bg-text h3 {
