@@ -10,9 +10,9 @@
 .footer-class {
     height: 200px;
     background-color: #080d11;
-    /* border-top-width: 2px;
-    border-top-style: solid;
-    border-top-color: #6d6d6d; */
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #6d6d6d;
 }
 
 .footer-text {

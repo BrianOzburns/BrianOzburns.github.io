@@ -54,7 +54,7 @@ hr {
     /* background-attachment: fixed; */
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: #6d6d6d;
+    border-bottom-color: white;
 }
 
 .entire-body {
@@ -104,7 +104,7 @@ hr {
     padding: 10%;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: #3a3a3a;
+    border-bottom-color: #6d6d6d;
     text-align: center;
     box-shadow: 0 0 45px 25px rgba(0,0,0,0.65);
     position: relative;
@@ -115,7 +115,7 @@ hr {
     padding: 10%;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: #6d6d6d;
+    border-bottom-color: white;
     /* background-color: #2a2727; */
     background-color: #813b3b;
     text-align: center;
