@@ -112,6 +112,8 @@ hr {
     --bs-accordion-active-color: #3b8166;
     --bs-accordion-btn-focus-border-color: #3b8166;
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.2rem #3b8166;
+    --bs-accordion-border-radius: 0;
+    --bs-accordion-inner-border-radius: 0;
 }
 
 .accordion-button:enabled {
@@ -135,6 +137,7 @@ hr {
 
 .accordion-title {
     text-align: center;
+    display: inline;
 }
 
 .accordion-button::before {
@@ -149,8 +152,9 @@ hr {
     text-align: center;
 }
 
-* {
-    border-radius: 0 !important;
+.accordion-item:last-of-type {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .group-image {
@@ -169,6 +173,22 @@ hr {
     width: 50%;
     height: 100%;
 }
+
+/* .ersp-symbol {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.codepath-symbol {
+    border-radius: 50%;
+    width: 5rem;
+} */
+
+/* .ucsb-symbol {
+    background-color: #E2E4E6;
+    border-radius: 50%;
+    width: 5rem;
+} */
 
 @media (max-width: 1680px) {
     .bg-image {
